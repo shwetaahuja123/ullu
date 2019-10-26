@@ -1,0 +1,4 @@
+nix-shell scripts of reflex-platform
+try-reflex
+cabal
+work-on scripts
