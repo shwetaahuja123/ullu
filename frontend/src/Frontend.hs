@@ -39,7 +39,7 @@ frontend = Frontend
                              & inputElementConfig_setValue .~ fmap (const "") enter
                              & inputElementConfig_elementConfig . elementConfig_initialAttributes .~
                                  ("id" =: "todo-input"
-                                 <> "placeholder" =: "enter hunter task")
+                                 <> "placeholder" =: "next right action")
                              & inputElementConfig_elementConfig . elementConfig_modifyAttributes .~ modAttrsEv
 
 
